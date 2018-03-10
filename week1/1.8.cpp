@@ -3,7 +3,7 @@
 //    p - степень, в которую нужно возвести x
 //
 
-int power(int x, unsigned p) {
+/*int power(int x, unsigned p) {
     int answer=x;
     if(p==0){
        answer=1;
@@ -13,10 +13,9 @@ int power(int x, unsigned p) {
         answer*=x;
         }
     }
-    /* считаем answer */
     return answer;
 }
-
+*/
 //best solution
 int power(int x, unsigned p) {
     if(p) return x * power(x, --p);
